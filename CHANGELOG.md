@@ -1,3 +1,9 @@
+## [1.33.1-dev.1](https://github.com/Zanuaimi/Nai64Patches/compare/1.33.0...1.33.1-dev.1) (2026-08-26)
+
+### Bug Fixes
+
+* replace Yandex rewarded method body safely ([2de926f](https://github.com/Zanuaimi/Nai64Patches/commit/2de926fe4bb93f53dac782f96e3b04fef75c54e8))
+
 ## [1.29.0](https://github.com/Nai64/Nai64Patches/compare/1.28.0...1.29.0) (2026-08-25)
 
 ### New Features
