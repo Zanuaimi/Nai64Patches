@@ -37,8 +37,8 @@ private fun generatePatchList(version: String, patches: Set<Patch<*>>) {
     val listJson = File("../patches-list.json")
 
     val patchOrder = listOf(
-        "Ads Free Rewards (Experimental)",
-        "No Ads (Experimental)",
+        "Ads Free Rewards",
+        "No Ads",
         "Skip Consent Popup",
         "Skip Rate-Us Prompt",
         "Spoof Play Store Install Source",
@@ -63,8 +63,6 @@ private fun generatePatchList(version: String, patches: Set<Patch<*>>) {
         "Enable Large Heap",
         "Force Hardware Acceleration",
         "Prefer ANGLE Graphics Driver",
-        "Graphics API Override (Experimental)",
-        "Frame Rate Preference (Experimental)",
         "Legacy External Storage",
         "Ensure Storage Permissions",
         "Ensure Modern Media Permissions",
@@ -84,7 +82,6 @@ private fun generatePatchList(version: String, patches: Set<Patch<*>>) {
         "Ensure Notification Permission",
         "Status Bar Icons",
         "Fake Online State",
-        "Disable Forced Online Checks (Experimental)",
         "Set Profileable",
         "Force Extract Native Libs",
         "Unlock Max Aspect Ratio",
@@ -120,8 +117,7 @@ private fun generatePatchList(version: String, patches: Set<Patch<*>>) {
         "Allow Screenshots",
         "Skip Splash Screen (Experimental)",
         "Disable Root Checks",
-        "Disable Google Update Check",
-        "Bypass Forced Updates (Experimental)",
+        "Disable Update Checks",
         "Disable Telemetry",
     )
     val orderMap = patchOrder.withIndex().associate { (i, name) -> name to i }

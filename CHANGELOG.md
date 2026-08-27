@@ -1,103 +1,60 @@
-## [1.33.1-dev.1](https://github.com/Zanuaimi/Nai64Patches/compare/1.33.0...1.33.1-dev.1) (2026-08-26)
+## [1.31.1](https://github.com/Nai64/Nai64Patches/compare/1.31.0...1.31.1) (2026-08-27)
 
 ### Bug Fixes
 
-* replace Yandex rewarded method body safely ([2de926f](https://github.com/Zanuaimi/Nai64Patches/commit/2de926fe4bb93f53dac782f96e3b04fef75c54e8))
+* improve No Ads patch UX and tighten ad detection [skip ci] ([24ae8f1](https://github.com/Nai64/Nai64Patches/commit/24ae8f16dbe72e29af4ccff8b53a7a2c8fadc87c))
 
-## [1.29.0](https://github.com/Nai64/Nai64Patches/compare/1.28.0...1.29.0) (2026-08-25)
+## [1.31.0](https://github.com/Nai64/Nai64Patches/compare/1.30.0...1.31.0) (2026-08-27)
+
+### Bug Fixes
+
+* remove secrets check from job if for Discord notify ([54420c4](https://github.com/Nai64/Nai64Patches/commit/54420c441fa03c22ae5ee111d524e6a53e1886c4))
 
 ### New Features
 
-* add ANGLE graphics driver preference ([2bc5d9a](https://github.com/Nai64/Nai64Patches/commit/2bc5d9ababf8c8ee12a10a227aa39902f3a1db82))
+* add Bypass Permission Check patch ([2bc41ac](https://github.com/Nai64/Nai64Patches/commit/2bc41ac56279a3c71f690b78a6de85266325ac18))
+* add Force Has System Feature patch ([14bfacb](https://github.com/Nai64/Nai64Patches/commit/14bfacbb6cb29b6c6fc33abb5a998ff8363b7851))
+* add Hide Accessibility Services patch ([8cd6008](https://github.com/Nai64/Nai64Patches/commit/8cd6008814c8cbc0a7f0e593972e6953cff8170c))
+* add Hide Clipboard Description patch ([6713924](https://github.com/Nai64/Nai64Patches/commit/6713924f96871e204b90cb7f3daef8788f5b9d42))
+* add Hide Default Sensor patch ([a99dfa7](https://github.com/Nai64/Nai64Patches/commit/a99dfa79f57e8183bb6f09ce2a121994552d4218))
+* add Hide Nfc Adapter patch ([6cb1027](https://github.com/Nai64/Nai64Patches/commit/6cb1027d641440dd1d6aee75dc771ca6c909bf8f))
+* add Hide Storage Volumes patch ([7284f9e](https://github.com/Nai64/Nai64Patches/commit/7284f9e34f7490bca69679e772675e1e709b6bbc))
+* add Hide Usage Stats patch ([75428eb](https://github.com/Nai64/Nai64Patches/commit/75428eb4a8e2d8629ac3eabce5121c400c3ed622))
+* add Spoof Bluetooth Profile State patch ([adf66de](https://github.com/Nai64/Nai64Patches/commit/adf66deb9f2987cb5bd55b5e3dfa09b673e535cf))
+* add Spoof UiMode Night State patch ([54c7ba3](https://github.com/Nai64/Nai64Patches/commit/54c7ba3897cb8958bf46a258e74f11582df14816))
+
+## [1.30.0](https://github.com/Nai64/Nai64Patches/compare/1.29.1...1.30.0) (2026-08-27)
+
+### New Features
+
+* add Spoof Fixed Location patch ([73fa7a0](https://github.com/Nai64/Nai64Patches/commit/73fa7a0773d607ad36a8fe11de9cb6d69c0ce55b))
+* enhance Spoof Time Zone to be selectable ([2c8b608](https://github.com/Nai64/Nai64Patches/commit/2c8b6089da10a9b88af3061c0569c79594473829))
+
+## [1.29.1](https://github.com/Nai64/Nai64Patches/compare/1.29.0...1.29.1) (2026-08-26)
+
+### Bug Fixes
+
+* cover Genre.isSpokenWord fallback in Unlock Playback Speed for Bandcamp ([f40cf22](https://github.com/Nai64/Nai64Patches/commit/f40cf227f3c65848104dd940bc9225221e603619))
+* expand Disable Bandcamp Tracker to cover stats pipeline for Bandcamp ([cf69d3b](https://github.com/Nai64/Nai64Patches/commit/cf69d3bd3a6df3da947504f515d21c735f358f18))
+* harden Show Search Result Scores patch for Bandcamp ([3636b28](https://github.com/Nai64/Nai64Patches/commit/3636b2837d3ef424af45d5a5d4a390141db854ca))
+
+## [1.29.0](https://github.com/Nai64/Nai64Patches/compare/1.28.0...1.29.0) (2026-08-26)
+
+### Bug Fixes
+
+* guard Spoof Developer Options against MinSdkVersionException during signing ([f4cb076](https://github.com/Nai64/Nai64Patches/commit/f4cb0768b5e81247c2c3af30a03083f8e079df3c))
+
+### New Features
+
+* add ANGLE graphics driver preference ([d166bc4](https://github.com/Nai64/Nai64Patches/commit/d166bc40cde8b55ec22bc5c08158f5f7800286cc))
+* add Change Package Name patch ([5564867](https://github.com/Nai64/Nai64Patches/commit/5564867774ca16240bf109dcd82beed22656906e))
+* add GmsCore support (MicroG) patch ([65cca26](https://github.com/Nai64/Nai64Patches/commit/65cca26bb7d42b39b172b11a62dbcfb12d1220d4))
 * add Huawei Ads Kit support ([f227219](https://github.com/Nai64/Nai64Patches/commit/f2272192c10d4369cdc6d120f91be2a762b86407))
-* add modern Android compatibility patches ([659a35c](https://github.com/Nai64/Nai64Patches/commit/659a35cfd8c95cba79a08ec6b4ba6df3c0fed46e))
+* add modern Android compatibility patches ([cec3ad1](https://github.com/Nai64/Nai64Patches/commit/cec3ad1dbe2f9902b4c6cb4f428193a6e3035cd6))
+* add new patches from PR [#47](https://github.com/Nai64/Nai64Patches/issues/47) (BypassForcedUpdates, GraphicsApiOverride, FrameRatePreference, DisableForcedOnlineChecks) and enhance Ads patches ([09fefa9](https://github.com/Nai64/Nai64Patches/commit/09fefa9c724b69a57b993d7bac2328eb8ed13b5c))
+* add Spoof App Signature patch ([ba86a3d](https://github.com/Nai64/Nai64Patches/commit/ba86a3dae57873552aa2b15b568477bac8ab29e4))
 * add storage permission compatibility patch ([29417ff](https://github.com/Nai64/Nai64Patches/commit/29417ffa255760dc8f977e7f7f6e225a7038232a))
 
-## [1.31.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.30.0...1.31.0) (2026-08-25)
-
-### New Features
-
-* add ANGLE graphics driver preference ([2bc5d9a](https://github.com/Zanuaimi/Nai64Patches/commit/2bc5d9ababf8c8ee12a10a227aa39902f3a1db82))
-* add modern Android compatibility patches ([659a35c](https://github.com/Zanuaimi/Nai64Patches/commit/659a35cfd8c95cba79a08ec6b4ba6df3c0fed46e))
-* add storage permission compatibility patch ([29417ff](https://github.com/Zanuaimi/Nai64Patches/commit/29417ffa255760dc8f977e7f7f6e225a7038232a))
-
-## [1.30.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.29.1...1.30.0) (2026-08-25)
-
-### New Features
-
-* add Huawei Ads Kit support ([f227219](https://github.com/Zanuaimi/Nai64Patches/commit/f2272192c10d4369cdc6d120f91be2a762b86407))
-
-## [1.28.0](https://github.com/Nai64/Nai64Patches/compare/1.27.1...1.28.0) (2026-08-25)
-
-### Bug Fixes
-
-* restore standalone patch list ([9f2b647](https://github.com/Nai64/Nai64Patches/commit/9f2b647ea89317c254c5b4f1b5dc58baa0de3a4f))
-* retain generated patch bundle for releases ([b3f11fe](https://github.com/Nai64/Nai64Patches/commit/b3f11fed14b2154d916e56ab5e1f7f50cee9e9e5))
-* support PairIP onStart startup variant ([ecd1d09](https://github.com/Nai64/Nai64Patches/commit/ecd1d09a0cd29bbaa661dbe5b0ec663b41b9d4fe))
-
-### New Features
-
-* expand PairIP bypass strategies ([95712f0](https://github.com/Nai64/Nai64Patches/commit/95712f0a8feb9f36fc54b08891924b4b7b3edb86))
-* group standalone patches into categories ([e590177](https://github.com/Nai64/Nai64Patches/commit/e590177e557e7dcae3f4f9b9ea1315e3e12d119c))
-
-## [1.29.1](https://github.com/Zanuaimi/Nai64Patches/compare/1.29.0...1.29.1) (2026-08-25)
-
-### Bug Fixes
-
-* support PairIP onStart startup variant ([ecd1d09](https://github.com/Zanuaimi/Nai64Patches/commit/ecd1d09a0cd29bbaa661dbe5b0ec663b41b9d4fe))
-
-## [1.29.1](https://github.com/Zanuaimi/Nai64Patches/compare/1.29.0...1.29.1) (2026-08-25)
-
-### Improvements
-
-- expand PairIP LicenseActivity startup suppression to support both `nnStart()` and `onStart()` variants
-
-## [1.29.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.28.1...1.29.0) (2026-08-25)
-
-### Bug Fixes
-
-* handle Settings key via field and log custom Android ID ([61a34ec](https://github.com/Zanuaimi/Nai64Patches/commit/61a34ecc4f559678d4f65a4b69830d59fcaa71b7))
-* improve No Ads patch to handle abstract interfaces and Unity v4/LevelPlay ([546d6f5](https://github.com/Zanuaimi/Nai64Patches/commit/546d6f5a5c16cd7667a409810716a414865ee029))
-* integrate Custom Rich Presence into Nai Patches Settings for Steam ([6b72d30](https://github.com/Zanuaimi/Nai64Patches/commit/6b72d30edd10fbda78146028f425aece49f415eb))
-* simplify bug report patches field to free-text ([795a444](https://github.com/Zanuaimi/Nai64Patches/commit/795a444addcf664ede637b4665a1acaf91bf110a))
-
-### New Features
-
-* add Allow Mobile Downloads patch for Bandcamp ([1b5589c](https://github.com/Zanuaimi/Nai64Patches/commit/1b5589c93f39e068b407951908abee3d3df0a005))
-* add AMOLED Theme patch ([4c9d25e](https://github.com/Zanuaimi/Nai64Patches/commit/4c9d25ec21344d04410aba94f272cac58826778d))
-* add Apk Junk Cleanup patch ([e867f29](https://github.com/Zanuaimi/Nai64Patches/commit/e867f29e94cf925c36c56cd0c4f8c602d828a432))
-* add compatibility report issue template ([d7c9007](https://github.com/Zanuaimi/Nai64Patches/commit/d7c9007eab9b3bd5109f9e2abeeaffa8b761e8f3))
-* add Custom Rich Presence patch for Steam ([2908b1e](https://github.com/Zanuaimi/Nai64Patches/commit/2908b1e3f5940cf546b3f40b9854300bda373bd2))
-* add Disable Bandcamp Tracker patch for Bandcamp ([354933b](https://github.com/Zanuaimi/Nai64Patches/commit/354933b6b4a91d68b3e01cb4eeb1d7bfaae0e45e))
-* add Disable Gemini Tracking patch ([82da845](https://github.com/Zanuaimi/Nai64Patches/commit/82da8451a8f8c06071f09dd7a8c786e98045b083))
-* add Disable Onboarding Overlays patch for Bandcamp ([4c123e0](https://github.com/Zanuaimi/Nai64Patches/commit/4c123e0d0a39ae2e2921c79993d0de214cede987))
-* add Disable Support Banners patch for Bandcamp ([765955b](https://github.com/Zanuaimi/Nai64Patches/commit/765955be20a8d3284cc3593ff10faec4f2dc5223))
-* add Enable Debug Features patch for Gemini ([2d1f264](https://github.com/Zanuaimi/Nai64Patches/commit/2d1f2641f8706c7b425d8201a768086e4f0c9f28))
-* add Enable Developer Support patch for Steam ([fa1113e](https://github.com/Zanuaimi/Nai64Patches/commit/fa1113e9e4f9d242b76ad8e5e00dfc555360780a))
-* add Enable Hidden Settings patch for Bandcamp ([175bc23](https://github.com/Zanuaimi/Nai64Patches/commit/175bc23951bd33fe932357228d90db8a1f39e9ec))
-* add Enable Memory patch for Gemini ([a0db8d0](https://github.com/Zanuaimi/Nai64Patches/commit/a0db8d00f322044178390ea73707516debc334fa))
-* add Enable Veo patch for Gemini ([fdd19ba](https://github.com/Zanuaimi/Nai64Patches/commit/fdd19ba378dde241aab6a61df93b3853c8661959))
-* add Enable Visual Interpreter patch for Gemini ([7b0ea22](https://github.com/Zanuaimi/Nai64Patches/commit/7b0ea227055d6e51a22c9b18ee4f2e69e0a5b329))
-* add feature request and app support request templates ([b6bdadd](https://github.com/Zanuaimi/Nai64Patches/commit/b6bdadd347e633b7e93eb7f09886966bad82a4ef))
-* add Force Debug Build patch for Steam ([f1e45d4](https://github.com/Zanuaimi/Nai64Patches/commit/f1e45d4660d85a62513eece19b88fde1a08a3175))
-* add Increase Context Limit patch for Gemini ([8702b9e](https://github.com/Zanuaimi/Nai64Patches/commit/8702b9e352ead5aa21860a439c634f96fbbf3b6d))
-* add Increase Limits patch for Steam ([d306fe3](https://github.com/Zanuaimi/Nai64Patches/commit/d306fe3222b88e8773b611cd274b79be8c219448))
-* add Increase Upload Limit patch for Gemini ([5551006](https://github.com/Zanuaimi/Nai64Patches/commit/55510066015a3705f89e408fb2bc00697a7ed1a4))
-* add Nai Patches Settings for Steam ([e44c937](https://github.com/Zanuaimi/Nai64Patches/commit/e44c93751fb63fdbbf22de6a34e98ab64a091626))
-* add optional status/navigation bar blackening to AMOLED Theme ([84e3da7](https://github.com/Zanuaimi/Nai64Patches/commit/84e3da759b797dfcd9e1aefdab610aa127b02fd7))
-* add Preserve App Data patch ([1c1a83a](https://github.com/Zanuaimi/Nai64Patches/commit/1c1a83a7995a8acba2cb8c49ae2d78df52c70185))
-* add Remove File Restrictions patch for Gemini ([eeaa883](https://github.com/Zanuaimi/Nai64Patches/commit/eeaa88371b7a7f2707d1a307c3556e8678199970))
-* add Remove Gemini Limits patch ([9b2d2e1](https://github.com/Zanuaimi/Nai64Patches/commit/9b2d2e183346e5cd992fd1a2266ce33202a6d191))
-* add Remove Internet Permission patch ([0530bfd](https://github.com/Zanuaimi/Nai64Patches/commit/0530bfdddf8e076bbc3e74a5f7ce7d09ca7ee8d6))
-* add Remove Play Count Limit patch for Bandcamp ([5a3e238](https://github.com/Zanuaimi/Nai64Patches/commit/5a3e238026754eb22682e5f29d9529f8fd9d1de2))
-* add Show Search Result Scores patch for Bandcamp ([6a9e7f5](https://github.com/Zanuaimi/Nai64Patches/commit/6a9e7f5782507c851a41221ececd9f74b18d55ec))
-* add Unlock Beta Features patch for Steam ([8b24568](https://github.com/Zanuaimi/Nai64Patches/commit/8b2456805ca5738d58988c415b6343852a7ab300))
-* add Unlock Gemini Advanced patch ([ebdedc4](https://github.com/Zanuaimi/Nai64Patches/commit/ebdedc43f9bc23a60bcde7fe903eecde930827c0))
-* add Unlock Gemini Extensions patch ([1e14385](https://github.com/Zanuaimi/Nai64Patches/commit/1e143854088024773dfca7f2783a5356deb7643b))
-* add Unlock Gemini Live patch ([b910859](https://github.com/Zanuaimi/Nai64Patches/commit/b910859847e98fd7fcec3149f5db194b5fd1907c))
-* add Unlock Gems patch for Gemini ([aed711a](https://github.com/Zanuaimi/Nai64Patches/commit/aed711a45541f5ce124b4e840dcff057f7bded3f))
-* add Unlock Playback Speed patch for Bandcamp ([bb3481b](https://github.com/Zanuaimi/Nai64Patches/commit/bb3481b9e161d04618a6cb817f89bc0f0a404e25))
-* require patcher log in bug report ([41ac151](https://github.com/Zanuaimi/Nai64Patches/commit/41ac1510b0af6b91baa05ab75aa98369ec2c1910))
 
 ## [1.28.2](https://github.com/Zanuaimi/Nai64Patches/compare/1.28.1...1.28.2) (2026-08-25)
 
