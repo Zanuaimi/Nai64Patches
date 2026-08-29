@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "patches": [
     {
       "name": "Skip Consent Popup",
@@ -3761,6 +3761,33 @@
           "type": "kotlin.String",
           "default": "#FF55D6BE",
           "values": null
+        },
+        {
+          "key": "runtimeOverlayButtonSizeDp",
+          "title": "Overlay button size (dp)",
+          "description": "Button width and height in density-independent pixels. Recommended: 56-80.",
+          "required": false,
+          "type": "kotlin.Int",
+          "default": 64,
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayButtonPosition",
+          "title": "Overlay button position",
+          "description": "Initial position relative to the phone display.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "topRight",
+          "values": {
+            "Top left": "topLeft",
+            "Top middle": "topMiddle",
+            "Top right": "topRight",
+            "Center left": "centerLeft",
+            "Center right": "centerRight",
+            "Bottom left": "bottomLeft",
+            "Bottom middle": "bottomMiddle",
+            "Bottom right": "bottomRight"
+          }
         },
         {
           "key": "runtimeOverlayIncludeKeepScreenAwake",

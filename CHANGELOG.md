@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.0.2...1.1.0) (2026-08-29)
+
+### New Features
+
+* customize runtime overlay size and position ([4edac48](https://github.com/Zanuaimi/Nai64Patches/commit/4edac48cf554319682ac7a2ae36e2c79d7268c1d))
+
 ## [1.0.2](https://github.com/Zanuaimi/Nai64Patches/compare/1.0.1...1.0.2) (2026-08-29)
 
 ### Bug Fixes
