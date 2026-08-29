@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/Zanuaimi/Nai64Patches/compare/1.0.0...1.0.1) (2026-08-29)
+
+### Bug Fixes
+
+* prevent empty inline smali compilation in runtime overlay ([cce395c](https://github.com/Zanuaimi/Nai64Patches/commit/cce395cca0cb5df9782cd3fdb94fa29a12193e7a))
+
 ## 1.0.0 (2026-08-29)
 
 ### Bug Fixes
