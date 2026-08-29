@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-08-29T13:12:00",
+  "created_at": "2026-08-29T14:15:41",
   "description": "## [1.32.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.31.0...1.32.0) (2026-08-29)\n\n### Bug Fixes\n\n* emit overlay colors as hex literals ([5375fe2](https://github.com/Zanuaimi/Nai64Patches/commit/5375fe2f106c3253e6f60f45757032a4d0beb8ce))\n* free iap polish ([a4ef888](https://github.com/Zanuaimi/Nai64Patches/commit/a4ef888c53af7b87f5d721cbad6808f727b30547))\n* some new shit for the unlimited currencies patch ([c874eaf](https://github.com/Zanuaimi/Nai64Patches/commit/c874eafe033aa17c766c5e53162fe784aced4108))\n* unlim currency v2 ([10cc715](https://github.com/Zanuaimi/Nai64Patches/commit/10cc71578bde131c29308326317eb24cd8412ebe))\n\n### New Features\n\n* add unlock premium patch ([26c5f65](https://github.com/Zanuaimi/Nai64Patches/commit/26c5f65fc19fd6c6b05d22dd6e1f1b233fa45755))",
   "download_url": "https://github.com/Zanuaimi/Nai64Patches/releases/download/1.32.0/patches-1.32.0.mpp",
   "signature_download_url": "",

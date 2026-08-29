@@ -11,6 +11,19 @@
 
 * add unlock premium patch ([26c5f65](https://github.com/Zanuaimi/Nai64Patches/commit/26c5f65fc19fd6c6b05d22dd6e1f1b233fa45755))
 
+## [1.32.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.31.0...1.32.0) (2026-08-29)
+
+### Bug Fixes
+
+* emit overlay colors as hex literals ([5375fe2](https://github.com/Zanuaimi/Nai64Patches/commit/5375fe2f106c3253e6f60f45757032a4d0beb8ce))
+* free iap polish ([a4ef888](https://github.com/Zanuaimi/Nai64Patches/commit/a4ef888c53af7b87f5d721cbad6808f727b30547))
+* some new shit for the unlimited currencies patch ([c874eaf](https://github.com/Zanuaimi/Nai64Patches/commit/c874eafe033aa17c766c5e53162fe784aced4108))
+* unlim currency v2 ([10cc715](https://github.com/Zanuaimi/Nai64Patches/commit/10cc71578bde131c29308326317eb24cd8412ebe))
+
+### New Features
+
+* add unlock premium patch ([26c5f65](https://github.com/Zanuaimi/Nai64Patches/commit/26c5f65fc19fd6c6b05d22dd6e1f1b233fa45755))
+
 ## [1.36.0](https://github.com/Nai64/Nai64Patches/compare/1.35.3...1.36.0) (2026-08-29)
 
 ### Bug Fixes
