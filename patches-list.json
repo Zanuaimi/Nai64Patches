@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "patches": [
     {
       "name": "Skip Consent Popup",
@@ -3705,7 +3705,9 @@
       "name": "Runtime Controls Overlay (Experimental)",
       "description": "Experimental in-app floating runtime controls for Nai64Patches users. Select which controls to include in Morphe Manager. Each selected control adds APK hooks and a runtime switch to the overlay. Switches start with the original app or game behavior; changes apply to the current Activity immediately. The overlay also provides a repository link, hide/remove actions, and customizable colors, text, and URL.",
       "default": false,
-      "dependencies": [],
+      "dependencies": [
+        "ResourcePatch"
+      ],
       "compatiblePackages": null,
       "options": [
         {
@@ -3790,7 +3792,7 @@
           }
         },
         {
-          "key": "runtimeOverlayIncludeKeepScreenAwake",
+          "key": "runtimeOverlayIncludeKeepScreenAwakeV2",
           "title": "Include keep screen awake control",
           "description": "Include the APK hook and overlay switch for keeping the screen awake. Default runtime state: Off, matching original app behavior.",
           "required": false,
@@ -3799,7 +3801,7 @@
           "values": null
         },
         {
-          "key": "runtimeOverlayIncludeFullscreen",
+          "key": "runtimeOverlayIncludeFullscreenV2",
           "title": "Include fullscreen control",
           "description": "Include the APK hook and overlay switch for fullscreen mode. Default runtime state: Off, matching original app behavior.",
           "required": false,
@@ -3808,7 +3810,7 @@
           "values": null
         },
         {
-          "key": "runtimeOverlayIncludeScreenshots",
+          "key": "runtimeOverlayIncludeScreenshotsV2",
           "title": "Include allow screenshots control",
           "description": "Include the APK hook and overlay switch for allowing screenshots. Default runtime state: Off, preserving the app's original screenshot behavior.",
           "required": false,
