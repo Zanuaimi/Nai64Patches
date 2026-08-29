@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.35.2",
+  "version": "1.1.0",
   "patches": [
     {
       "name": "Skip Consent Popup",
@@ -3236,11 +3236,21 @@
     },
     {
       "name": "Free In-app Purchases (Experimental)",
-      "description": "Makes Unity in-app purchases appear successful without paying. Supports Unity IAP and Google Play Billing. Use for offline games only — online verification may still block.",
+      "description": "Spoofs in-app purchases to appear successful. Covers Google Play Billing, Unity IAP, Xsolla, and common receipt verification. Server-side verification may still block in online games.",
       "default": false,
       "dependencies": [],
       "compatiblePackages": null,
-      "options": []
+      "options": [
+        {
+          "key": "fakeReceipt",
+          "title": "Fake receipt data",
+          "description": "Generate fake purchase receipt data for games that validate receipts locally.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        }
+      ]
     },
     {
       "name": "GmsCore support (MicroG)",
@@ -3690,6 +3700,123 @@
       "dependencies": [],
       "compatiblePackages": null,
       "options": []
+    },
+    {
+      "name": "Runtime Controls Overlay (Experimental)",
+      "description": "Experimental in-app floating runtime controls for Nai64Patches users. Select which controls to include in Morphe Manager. Each selected control adds APK hooks and a runtime switch to the overlay. Switches start with the original app or game behavior; changes apply to the current Activity immediately. The overlay also provides a repository link, hide/remove actions, and customizable colors, text, and URL.",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": null,
+      "options": [
+        {
+          "key": "runtimeOverlayTitle",
+          "title": "Overlay title",
+          "description": "Title shown in the overlay menu.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "Nai64Patches Runtime Controls Overlay",
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayDescription",
+          "title": "Overlay description",
+          "description": "Welcome and information shown below the overlay title.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "Welcome to Nai64Patches Runtime Controls Overlay. This experimental in-app overlay contains controls that may change parts of the app or game at runtime. More may be added in future updates.",
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayRepositoryText",
+          "title": "Repository button text",
+          "description": "Text of the button that opens the configured website.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "Nai64 repository",
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayRepositoryUrl",
+          "title": "Repository button URL",
+          "description": "Website opened by the repository button.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "https://github.com/Nai64/Nai64Patches",
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayBackgroundColor",
+          "title": "Overlay background color",
+          "description": "Overlay background color as #RRGGBB or #AARRGGBB.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "#CC101820",
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayOutlineColor",
+          "title": "Overlay outline color",
+          "description": "Overlay outline color as #RRGGBB or #AARRGGBB.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "#FF55D6BE",
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayButtonSizeDp",
+          "title": "Overlay button size (dp)",
+          "description": "Button width and height in density-independent pixels. Recommended: 56-80.",
+          "required": false,
+          "type": "kotlin.Int",
+          "default": 64,
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayButtonPosition",
+          "title": "Overlay button position",
+          "description": "Initial position relative to the phone display.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "topRight",
+          "values": {
+            "Top left": "topLeft",
+            "Top middle": "topMiddle",
+            "Top right": "topRight",
+            "Center left": "centerLeft",
+            "Center right": "centerRight",
+            "Bottom left": "bottomLeft",
+            "Bottom middle": "bottomMiddle",
+            "Bottom right": "bottomRight"
+          }
+        },
+        {
+          "key": "runtimeOverlayIncludeKeepScreenAwake",
+          "title": "Include keep screen awake control",
+          "description": "Include the APK hook and overlay switch for keeping the screen awake. Default runtime state: Off, matching original app behavior.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": false,
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayIncludeFullscreen",
+          "title": "Include fullscreen control",
+          "description": "Include the APK hook and overlay switch for fullscreen mode. Default runtime state: Off, matching original app behavior.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": false,
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayIncludeScreenshots",
+          "title": "Include allow screenshots control",
+          "description": "Include the APK hook and overlay switch for allowing screenshots. Default runtime state: Off, preserving the app's original screenshot behavior.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": false,
+          "values": null
+        }
+      ]
     },
     {
       "name": "Show Search Result Scores",
@@ -4454,7 +4581,7 @@
     },
     {
       "name": "Unlimited Currencies",
-      "description": "Makes currency checks return a huge amount so you never run out. Covers PlayerPrefs, SharedPreferences and common Unity fields.",
+      "description": "Spoofs currency checks so you never run out. Covers PlayerPrefs, SharedPreferences and common Unity fields. WARNING: Only works on Mono-based Unity games and traditional Java/Android games. IL2CPP games (check for libil2cpp.so in the APK) store currencies in native memory — this patch cannot reach them.",
       "default": false,
       "dependencies": [],
       "compatiblePackages": null,
@@ -4475,6 +4602,33 @@
           "required": false,
           "type": "kotlin.String",
           "default": "",
+          "values": null
+        },
+        {
+          "key": "infiniteMode",
+          "title": "Infinite mode",
+          "description": "ON: all currencies set to huge amount. OFF: currencies set to the Amount value above.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "multiplyMode",
+          "title": "Multiply income",
+          "description": "When ON, every time a currency is saved it gets multiplied by the Multiplier value. Useful when infinite mode doesn't work.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": false,
+          "values": null
+        },
+        {
+          "key": "currencyMultiplier",
+          "title": "Multiplier",
+          "description": "Multiplier value used in Multiply income mode.",
+          "required": false,
+          "type": "kotlin.Int",
+          "default": 10,
           "values": null
         }
       ]
@@ -4511,6 +4665,14 @@
           ]
         }
       ],
+      "options": []
+    },
+    {
+      "name": "Unlock Premium",
+      "description": "Unlocks premium features, subscriptions, and ownership checks. Makes isPremium/isOwned/isVip/hasReceipt return true, and forces SharedPreferences purchase keys to true.",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": null,
       "options": []
     },
     {
