@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/Zanuaimi/Nai64Patches/compare/1.0.1...1.0.2) (2026-08-29)
+
+### Bug Fixes
+
+* correct overlay listener registers ([29ff9b0](https://github.com/Zanuaimi/Nai64Patches/commit/29ff9b051e421819f124b26e8cc78be15d6c6388))
+
 ## [1.0.1](https://github.com/Zanuaimi/Nai64Patches/compare/1.0.0...1.0.1) (2026-08-29)
 
 ### Bug Fixes
