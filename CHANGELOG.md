@@ -8,6 +8,16 @@
 
 * merge runtime controls overlay ([f07e08f](https://github.com/Zanuaimi/Nai64Patches/commit/f07e08fc7af8cc55490736c0122b21c207165e4b))
 
+## [1.31.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.30.0...1.31.0) (2026-08-29)
+
+### Bug Fixes
+
+* handle overlay-only runtime patching ([b04a862](https://github.com/Zanuaimi/Nai64Patches/commit/b04a862917426e01cdc36da2e2bf198e51aea1af))
+
+### New Features
+
+* merge runtime controls overlay ([f07e08f](https://github.com/Zanuaimi/Nai64Patches/commit/f07e08fc7af8cc55490736c0122b21c207165e4b))
+
 ## [1.30.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.29.1...1.30.0) (2026-08-29)
 
 ### Bug Fixes

@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-08-29T11:14:07",
+  "created_at": "2026-08-29T11:20:41",
   "description": "## [1.31.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.30.0...1.31.0) (2026-08-29)\n\n### Bug Fixes\n\n* handle overlay-only runtime patching ([b04a862](https://github.com/Zanuaimi/Nai64Patches/commit/b04a862917426e01cdc36da2e2bf198e51aea1af))\n\n### New Features\n\n* merge runtime controls overlay ([f07e08f](https://github.com/Zanuaimi/Nai64Patches/commit/f07e08fc7af8cc55490736c0122b21c207165e4b))",
   "download_url": "https://github.com/Zanuaimi/Nai64Patches/releases/download/1.31.0/patches-1.31.0.mpp",
   "signature_download_url": "",
