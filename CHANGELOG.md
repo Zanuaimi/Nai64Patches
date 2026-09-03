@@ -1,3 +1,9 @@
+## [1.11.3](https://github.com/Zanuaimi/Nai64Patches/compare/1.11.2...1.11.3) (2026-09-03)
+
+### Bug Fixes
+
+* improve overlay outline visibility ([50b5626](https://github.com/Zanuaimi/Nai64Patches/commit/50b562608e59eb81772c0af67ac75c952afe760f))
+
 ## [1.11.2](https://github.com/Zanuaimi/Nai64Patches/compare/1.11.1...1.11.2) (2026-09-03)
 
 ### Bug Fixes
