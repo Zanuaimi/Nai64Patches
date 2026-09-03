@@ -1,3 +1,9 @@
+## [1.11.4](https://github.com/Zanuaimi/Nai64Patches/compare/1.11.3...1.11.4) (2026-09-03)
+
+### Bug Fixes
+
+* update defaults and order ([a682f01](https://github.com/Zanuaimi/Nai64Patches/commit/a682f01b8dbeb25be61e6de986175f30cb0e50bf))
+
 ## [1.11.3](https://github.com/Zanuaimi/Nai64Patches/compare/1.11.2...1.11.3) (2026-09-03)
 
 ### Bug Fixes

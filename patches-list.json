@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.11.3",
+  "version": "1.11.4",
   "patches": [
     {
       "name": "Skip Consent Popup",
@@ -4529,7 +4529,7 @@
           "description": "Description below the title. Limited to 500 characters.",
           "required": false,
           "type": "kotlin.String",
-          "default": "Welcome! This is Nai64Patches Universal Overlay Patch Menu. This experimental overlay patchcontains optional statistic, activity, and hook modules. More of them may be added in future updates. You will find modules below the description if you enabled some modules in this patch settings before patching this APK.The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
+          "default": "Welcome! This is Nai64Patches Universal Overlay Patch Menu. This experimental overlay patchcontains optional statistic, activity, and hook modules. More of them may be added in future updates. You will find modules below the description if you enabled some modules in this patch settings before patching this APK. The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
           "values": null
         },
         {
@@ -4592,7 +4592,7 @@
           "description": "First color of the legacy icon gradient.",
           "required": false,
           "type": "kotlin.String",
-          "default": "#FF2C6FA3",
+          "default": "#000083",
           "values": null
         },
         {
@@ -4601,7 +4601,25 @@
           "description": "Second color of the legacy icon gradient. Background 1 is the existing overlay button background color.",
           "required": false,
           "type": "kotlin.String",
-          "default": "#FF45B96B",
+          "default": "#00AF7C",
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayIconOutline",
+          "title": "UI - Icon outline",
+          "description": "Add a separate outline around the legacy text icon. Disabled by default.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": false,
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayIconOutlineColor",
+          "title": "UI - Icon outline color",
+          "description": "Color used only when the icon outline is enabled.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "#FFFFFFFF",
           "values": null
         },
         {
@@ -4632,24 +4650,6 @@
           "required": false,
           "type": "kotlin.Boolean",
           "default": true,
-          "values": null
-        },
-        {
-          "key": "runtimeOverlayIconOutline",
-          "title": "UI - Icon outline",
-          "description": "Add a separate outline around the legacy text icon. Disabled by default.",
-          "required": false,
-          "type": "kotlin.Boolean",
-          "default": false,
-          "values": null
-        },
-        {
-          "key": "runtimeOverlayIconOutlineColor",
-          "title": "UI - Icon outline color",
-          "description": "Color used only when the icon outline is enabled.",
-          "required": false,
-          "type": "kotlin.String",
-          "default": "#FF55D6BE",
           "values": null
         },
         {
