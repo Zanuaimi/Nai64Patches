@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-03T23:25:41",
-  "description": "## [1.13.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.12.0...1.13.0) (2026-09-03)\n\n### New Features\n\n* improve custom image support, and gradient toggle ([dc0a483](https://github.com/Zanuaimi/Nai64Patches/commit/dc0a48359a907f086e162776ced6d9fd8af0f80f))",
-  "download_url": "https://github.com/Zanuaimi/Nai64Patches/releases/download/1.13.0/patches-1.13.0.mpp",
+  "created_at": "2026-09-03T23:51:55",
+  "description": "## [1.13.1](https://github.com/Zanuaimi/Nai64Patches/compare/1.13.0...1.13.1) (2026-09-03)\n\n### Bug Fixes\n\n* change stringOption image input source to imageOption, and remove icon type dropdown ([e010314](https://github.com/Zanuaimi/Nai64Patches/commit/e010314ea36ffe8b820e84d58ac13ad9a5219ec8))",
+  "download_url": "https://github.com/Zanuaimi/Nai64Patches/releases/download/1.13.1/patches-1.13.1.mpp",
   "signature_download_url": "",
-  "version": "1.13.0"
+  "version": "1.13.1"
 }

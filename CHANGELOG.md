@@ -1,3 +1,9 @@
+## [1.13.1](https://github.com/Zanuaimi/Nai64Patches/compare/1.13.0...1.13.1) (2026-09-03)
+
+### Bug Fixes
+
+* change stringOption image input source to imageOption, and remove icon type dropdown ([e010314](https://github.com/Zanuaimi/Nai64Patches/commit/e010314ea36ffe8b820e84d58ac13ad9a5219ec8))
+
 ## [1.13.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.12.0...1.13.0) (2026-09-03)
 
 ### New Features
