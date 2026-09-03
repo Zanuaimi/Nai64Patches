@@ -1,3 +1,9 @@
+## [1.11.5](https://github.com/Zanuaimi/Nai64Patches/compare/1.11.4...1.11.5) (2026-09-03)
+
+### Bug Fixes
+
+* update order of settings ([9a165af](https://github.com/Zanuaimi/Nai64Patches/commit/9a165afa60eefc0852171cf8b1314a82f01f6ce7))
+
 ## [1.11.4](https://github.com/Zanuaimi/Nai64Patches/compare/1.11.3...1.11.4) (2026-09-03)
 
 ### Bug Fixes

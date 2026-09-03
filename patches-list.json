@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.11.4",
+  "version": "1.11.5",
   "patches": [
     {
       "name": "Skip Consent Popup",
@@ -4569,12 +4569,30 @@
           "values": null
         },
         {
+          "key": "runtimeOverlayOutlineWidthDp",
+          "title": "UI - Menu outline width (dp)",
+          "description": "Width of the menu, monitor, and confirmation outlines, from 1 to 8dp.",
+          "required": false,
+          "type": "kotlin.Int",
+          "default": 2,
+          "values": null
+        },
+        {
           "key": "runtimeOverlayButtonText",
           "title": "UI - Legacy icon text",
           "description": "Text shown by the legacy icon. Maximum three characters.",
           "required": false,
           "type": "kotlin.String",
           "default": "N64",
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayIconBold",
+          "title": "UI - Legacy icon bold text",
+          "description": "Use bold text in the legacy icon. Enabled by default.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
           "values": null
         },
         {
@@ -4602,6 +4620,15 @@
           "required": false,
           "type": "kotlin.String",
           "default": "#00AF7C",
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayIconGradientAngle",
+          "title": "UI - Legacy icon gradient angle (degrees)",
+          "description": "Gradient direction: 0 degrees runs top to bottom, 90 runs left to right, and 30 runs diagonally down and right. Values wrap through 360 degrees.",
+          "required": false,
+          "type": "kotlin.Int",
+          "default": 30,
           "values": null
         },
         {
@@ -4641,33 +4668,6 @@
           "required": false,
           "type": "kotlin.String",
           "default": "",
-          "values": null
-        },
-        {
-          "key": "runtimeOverlayIconBold",
-          "title": "UI - Legacy icon bold text",
-          "description": "Use bold text in the legacy icon. Enabled by default.",
-          "required": false,
-          "type": "kotlin.Boolean",
-          "default": true,
-          "values": null
-        },
-        {
-          "key": "runtimeOverlayIconGradientAngle",
-          "title": "UI - Legacy icon gradient angle (degrees)",
-          "description": "Gradient direction: 0 degrees runs top to bottom, 90 runs left to right, and 30 runs diagonally down and right. Values wrap through 360 degrees.",
-          "required": false,
-          "type": "kotlin.Int",
-          "default": 30,
-          "values": null
-        },
-        {
-          "key": "runtimeOverlayOutlineWidthDp",
-          "title": "UI - Menu outline width (dp)",
-          "description": "Width of the menu, monitor, and confirmation outlines, from 1 to 8dp.",
-          "required": false,
-          "type": "kotlin.Int",
-          "default": 2,
           "values": null
         },
         {
