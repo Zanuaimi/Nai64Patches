@@ -1,3 +1,9 @@
+## [1.11.2](https://github.com/Zanuaimi/Nai64Patches/compare/1.11.1...1.11.2) (2026-09-03)
+
+### Bug Fixes
+
+* refresh feature branch ([d3d176c](https://github.com/Zanuaimi/Nai64Patches/commit/d3d176c15a056d5c4886dd325e56565426ebcac8))
+
 ## [1.11.1](https://github.com/Zanuaimi/Nai64Patches/compare/1.11.0...1.11.1) (2026-09-03)
 
 ### Bug Fixes
