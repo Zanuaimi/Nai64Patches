@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-03T20:55:53",
-  "description": "## [1.11.5](https://github.com/Zanuaimi/Nai64Patches/compare/1.11.4...1.11.5) (2026-09-03)\n\n### Bug Fixes\n\n* update order of settings ([9a165af](https://github.com/Zanuaimi/Nai64Patches/commit/9a165afa60eefc0852171cf8b1314a82f01f6ce7))",
-  "download_url": "https://github.com/Zanuaimi/Nai64Patches/releases/download/1.11.5/patches-1.11.5.mpp",
+  "created_at": "2026-09-03T22:06:45",
+  "description": "## [1.12.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.11.5...1.12.0) (2026-09-03)\n\n### Bug Fixes\n\n* fix floatingbutton not initialized error ([b5ba0b8](https://github.com/Zanuaimi/Nai64Patches/commit/b5ba0b80b1af711d18f91ab175d8e9a5cdc607e3))\n\n### New Features\n\n* add drag timer before transparency fade ([f93d58f](https://github.com/Zanuaimi/Nai64Patches/commit/f93d58f7c7828b9ef5c393b1aab1557888881385))",
+  "download_url": "https://github.com/Zanuaimi/Nai64Patches/releases/download/1.12.0/patches-1.12.0.mpp",
   "signature_download_url": "",
-  "version": "1.11.5"
+  "version": "1.12.0"
 }

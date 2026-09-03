@@ -1,3 +1,13 @@
+## [1.12.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.11.5...1.12.0) (2026-09-03)
+
+### Bug Fixes
+
+* fix floatingbutton not initialized error ([b5ba0b8](https://github.com/Zanuaimi/Nai64Patches/commit/b5ba0b80b1af711d18f91ab175d8e9a5cdc607e3))
+
+### New Features
+
+* add drag timer before transparency fade ([f93d58f](https://github.com/Zanuaimi/Nai64Patches/commit/f93d58f7c7828b9ef5c393b1aab1557888881385))
+
 ## [1.11.5](https://github.com/Zanuaimi/Nai64Patches/compare/1.11.4...1.11.5) (2026-09-03)
 
 ### Bug Fixes

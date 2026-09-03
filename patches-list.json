@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.11.5",
+  "version": "1.12.0",
   "patches": [
     {
       "name": "Skip Consent Popup",
@@ -4529,7 +4529,7 @@
           "description": "Description below the title. Limited to 500 characters.",
           "required": false,
           "type": "kotlin.String",
-          "default": "Welcome! This is Nai64Patches Universal Overlay Patch Menu. This experimental overlay patchcontains optional statistic, activity, and hook modules. More of them may be added in future updates. You will find modules below the description if you enabled some modules in this patch settings before patching this APK. The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
+          "default": "Welcome! This is Nai64Patches Universal Overlay Patch Menu.\nYou will find modules below the description if you enabled some modules\nin this patch settings before patching this APK.\nThe idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
           "values": null
         },
         {
@@ -4695,10 +4695,19 @@
         {
           "key": "runtimeOverlayButtonIdleOpacityPercent",
           "title": "UI - Overlay button idle opacity (%)",
-          "description": "Idle opacity from 10 to 100 percent.",
+          "description": "Idle opacity from 10 to 100 percent. Higher values make the button less transparent.",
           "required": false,
           "type": "kotlin.Int",
-          "default": 35,
+          "default": 50,
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayButtonDragVisibilityDurationSeconds",
+          "title": "UI - Overlay button fully visible duration (seconds)",
+          "description": "How long the overlay button stays fully visible after dragging before fading to its idle opacity. The timer resets while dragging and starts again when the finger is released. Use a value from 1 to 10 seconds.",
+          "required": false,
+          "type": "kotlin.Int",
+          "default": 2,
           "values": null
         },
         {
