@@ -1,3 +1,9 @@
+## [1.13.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.12.0...1.13.0) (2026-09-03)
+
+### New Features
+
+* improve custom image support, and gradient toggle ([dc0a483](https://github.com/Zanuaimi/Nai64Patches/commit/dc0a48359a907f086e162776ced6d9fd8af0f80f))
+
 ## [1.12.0](https://github.com/Zanuaimi/Nai64Patches/compare/1.11.5...1.12.0) (2026-09-03)
 
 ### Bug Fixes

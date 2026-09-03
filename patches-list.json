@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "patches": [
     {
       "name": "Skip Consent Popup",
@@ -4507,7 +4507,7 @@
     },
     {
       "name": "Universal Overlay Patch (SPECIAL PATCH, Experimental)",
-      "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. Experimental : May not work on all apps!\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
+      "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. Custom icons support Base64 data, local image\npaths, and HTTP(S) URLs. This is experimental and may not work on all apps.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
       "default": false,
       "dependencies": [
         "ResourcePatch"
@@ -4605,6 +4605,15 @@
           "values": null
         },
         {
+          "key": "runtimeOverlayIconGradientBackground",
+          "title": "UI - Gradient background",
+          "description": "Blend legacy icon background 1 into background 2. When disabled, only background 1 is used.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
           "key": "runtimeOverlayButtonBackgroundColor",
           "title": "UI - Legacy icon background 1",
           "description": "First color of the legacy icon gradient.",
@@ -4652,7 +4661,7 @@
         {
           "key": "runtimeOverlayIconType",
           "title": "UI - Icon type",
-          "description": "Legacy icon uses up to three bold text characters and a gradient background. Custom image replaces it and supports transparent images. Custom image requires a valid Base64 PNG or JPEG below; otherwise the legacy icon is used.",
+          "description": "Legacy icon uses up to three bold text characters and an optional gradient background. Custom image replaces it and supports transparent images from Base64, local paths, or HTTP(S) URLs. Invalid or missing images fall back to the legacy icon.",
           "required": false,
           "type": "kotlin.String",
           "default": "legacy",
@@ -4663,8 +4672,8 @@
         },
         {
           "key": "runtimeOverlayCustomIconImage",
-          "title": "UI - Custom image icon (Base64)",
-          "description": "Select Custom image icon in UI - Icon type for this image input to be used. Use a trusted Base64 image encoder, such as https://base64.guru/converter/encode/image: choose a square PNG or JPEG, ideally 128x128 or 256x256 pixels, copy its encoded result, then paste it here instead of a file path. Example format: data:image/png;base64,<your encoded image data>. Transparent images are supported and other sizes are scaled proportionally. Leave blank to use the legacy icon; invalid or missing input falls back with a one-time launch notice.",
+          "title": "UI - Custom image icon",
+          "description": "Select Custom image icon in UI - Icon type. Supported input: Base64 data, data:image/...;base64,..., a local image path, or an HTTP(S) image URL. Use a trusted Base64 encoder such as https://base64.guru/converter/encode/image. Prefer a transparent square PNG or JPEG around 128x128 or 256x256 pixels. Example: data:image/png;base64,<your encoded image data>. Images are embedded during patching and scaled proportionally. Leave blank or use invalid input to fall back to the legacy icon with a one-time launch notice.",
           "required": false,
           "type": "kotlin.String",
           "default": "",
