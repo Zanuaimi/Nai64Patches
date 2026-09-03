@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.11.1",
+  "version": "1.11.2",
   "patches": [
     {
       "name": "Skip Consent Popup",
@@ -4596,12 +4596,42 @@
           "values": null
         },
         {
-          "key": "runtimeOverlayOutlineWidthDp",
-          "title": "UI - Menu outline width (dp)",
-          "description": "Width of the menu, monitor, and confirmation outlines, from 1 to 8dp.",
+          "key": "runtimeOverlayIconBackgroundColor2",
+          "title": "UI - Legacy icon background 2",
+          "description": "Second color of the legacy icon gradient. Background 1 is the existing overlay button background color.",
           "required": false,
-          "type": "kotlin.Int",
-          "default": 1,
+          "type": "kotlin.String",
+          "default": "#FF2E8B57",
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayIconType",
+          "title": "UI - Icon type",
+          "description": "Legacy icon uses up to three bold text characters and a gradient background. Custom image replaces it and supports transparent images. Custom image requires a valid Base64 PNG or JPEG below; otherwise the legacy icon is used.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "legacy",
+          "values": {
+            "Legacy text icon": "legacy",
+            "Custom image icon": "image"
+          }
+        },
+        {
+          "key": "runtimeOverlayCustomIconImage",
+          "title": "UI - Custom image icon (Base64)",
+          "description": "Use a trusted Base64 image encoder, such as https://base64.guru/converter/encode/image: choose a square PNG or JPEG, ideally 128x128 or 256x256 pixels, copy its encoded result, then paste it here instead of a file path. Example format: data:image/png;base64,<your encoded image data>. Transparent images are supported and other sizes are scaled proportionally. Leave blank to use the legacy icon; invalid or missing input falls back with a one-time launch notice.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "",
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayIconBold",
+          "title": "UI - Legacy icon bold text",
+          "description": "Use bold text in the legacy icon. Enabled by default.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
           "values": null
         },
         {
@@ -4623,36 +4653,6 @@
           "values": null
         },
         {
-          "key": "runtimeOverlayIconType",
-          "title": "UI - Icon type",
-          "description": "Legacy icon uses up to three bold text characters and a gradient background. Custom image replaces it and supports transparent images. Custom image requires a valid Base64 PNG or JPEG below; otherwise the legacy icon is used.",
-          "required": false,
-          "type": "kotlin.String",
-          "default": "legacy",
-          "values": {
-            "Legacy text icon": "legacy",
-            "Custom image icon": "image"
-          }
-        },
-        {
-          "key": "runtimeOverlayIconBold",
-          "title": "UI - Legacy icon bold text",
-          "description": "Use bold text in the legacy icon. Enabled by default.",
-          "required": false,
-          "type": "kotlin.Boolean",
-          "default": true,
-          "values": null
-        },
-        {
-          "key": "runtimeOverlayIconBackgroundColor2",
-          "title": "UI - Legacy icon background 2",
-          "description": "Second color of the legacy icon gradient. Background 1 is the existing overlay button background color.",
-          "required": false,
-          "type": "kotlin.String",
-          "default": "#FF2E8B57",
-          "values": null
-        },
-        {
           "key": "runtimeOverlayIconGradientAngle",
           "title": "UI - Legacy icon gradient angle (degrees)",
           "description": "Gradient direction: 0 degrees runs top to bottom, 90 runs left to right, and 30 runs diagonally down and right. Values wrap through 360 degrees.",
@@ -4662,12 +4662,12 @@
           "values": null
         },
         {
-          "key": "runtimeOverlayCustomIconImage",
-          "title": "UI - Custom image icon (Base64)",
-          "description": "Use a trusted Base64 image encoder, such as https://base64.guru/converter/encode/image: choose a square PNG or JPEG, ideally 128x128 or 256x256 pixels, copy its encoded result, then paste it here instead of a file path. Example format: data:image/png;base64,<your encoded image data>. Transparent images are supported and other sizes are scaled proportionally. Leave blank to use the legacy icon; invalid or missing input falls back with a one-time launch notice.",
+          "key": "runtimeOverlayOutlineWidthDp",
+          "title": "UI - Menu outline width (dp)",
+          "description": "Width of the menu, monitor, and confirmation outlines, from 1 to 8dp.",
           "required": false,
-          "type": "kotlin.String",
-          "default": "",
+          "type": "kotlin.Int",
+          "default": 1,
           "values": null
         },
         {
