@@ -1,3 +1,9 @@
+## [1.13.2](https://github.com/Zanuaimi/Nai64Patches/compare/1.13.1...1.13.2) (2026-09-04)
+
+### Bug Fixes
+
+* layering of image and image handling cleanup ([aca2cf3](https://github.com/Zanuaimi/Nai64Patches/commit/aca2cf314bd10128c576faa271a4bb773d370654))
+
 ## [1.13.1](https://github.com/Zanuaimi/Nai64Patches/compare/1.13.0...1.13.1) (2026-09-03)
 
 ### Bug Fixes

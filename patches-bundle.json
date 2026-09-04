@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-03T23:51:55",
-  "description": "## [1.13.1](https://github.com/Zanuaimi/Nai64Patches/compare/1.13.0...1.13.1) (2026-09-03)\n\n### Bug Fixes\n\n* change stringOption image input source to imageOption, and remove icon type dropdown ([e010314](https://github.com/Zanuaimi/Nai64Patches/commit/e010314ea36ffe8b820e84d58ac13ad9a5219ec8))",
-  "download_url": "https://github.com/Zanuaimi/Nai64Patches/releases/download/1.13.1/patches-1.13.1.mpp",
+  "created_at": "2026-09-04T00:13:36",
+  "description": "## [1.13.2](https://github.com/Zanuaimi/Nai64Patches/compare/1.13.1...1.13.2) (2026-09-04)\n\n### Bug Fixes\n\n* layering of image and image handling cleanup ([aca2cf3](https://github.com/Zanuaimi/Nai64Patches/commit/aca2cf314bd10128c576faa271a4bb773d370654))",
+  "download_url": "https://github.com/Zanuaimi/Nai64Patches/releases/download/1.13.2/patches-1.13.2.mpp",
   "signature_download_url": "",
-  "version": "1.13.1"
+  "version": "1.13.2"
 }

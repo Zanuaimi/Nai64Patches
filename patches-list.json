@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.13.1",
+  "version": "1.13.2",
   "patches": [
     {
       "name": "Skip Consent Popup",
@@ -4507,7 +4507,7 @@
     },
     {
       "name": "Universal Overlay Patch (SPECIAL PATCH, Experimental)",
-      "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. A valid custom image automatically replaces the\nlegacy icon; empty or invalid image input falls back to the legacy icon. Custom images support\nBase64 data, local image paths, and HTTP(S) URLs. This is experimental and may not work on all apps.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
+      "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. A selected local image automatically replaces\nthe legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental\nand may not work on all apps.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
       "default": false,
       "dependencies": [
         "ResourcePatch"
@@ -4661,7 +4661,7 @@
         {
           "key": "runtimeOverlayCustomIconImage",
           "title": "UI - Custom image icon",
-          "description": "A valid image automatically replaces the legacy icon, including its outline. Supported input: an image file, Base64 data, data:image/...;base64,..., a local image path, or an HTTP(S) image URL. Use a trusted Base64 encoder such as https://base64.guru/converter/encode/image. Prefer a transparent square PNG or JPEG around 128x128 or 256x256 pixels. Example: data:image/png;base64,<your encoded image data>. Images are embedded during patching and scaled proportionally. Leave blank or use invalid input to fall back to the legacy icon with a one-time launch notice.",
+          "description": "Select a local PNG, JPG, JPEG, or WebP image file. A valid image automatically replaces the legacy icon, including its outline. Prefer a transparent square image around 128x128 or 256x256 pixels. Images are embedded during patching and scaled proportionally. Leave blank or use an invalid file to fall back to the legacy icon with a one-time launch notice.",
           "required": false,
           "type": "kotlin.String",
           "default": "",
