@@ -1,3 +1,9 @@
+## [1.13.3](https://github.com/Zanuaimi/Nai64Patches/compare/1.13.2...1.13.3) (2026-09-04)
+
+### Bug Fixes
+
+* rename universal overlay patch ([2711e68](https://github.com/Zanuaimi/Nai64Patches/commit/2711e68fb20fb4b6a46c665f42af81a07a71da9b))
+
 ## [1.13.2](https://github.com/Zanuaimi/Nai64Patches/compare/1.13.1...1.13.2) (2026-09-04)
 
 ### Bug Fixes

@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.13.2",
+  "version": "1.13.3",
   "patches": [
     {
       "name": "Skip Consent Popup",
@@ -4506,7 +4506,7 @@
       "options": []
     },
     {
-      "name": "Universal Overlay Patch (SPECIAL PATCH, Experimental)",
+      "name": "Universal Overlay Patch v1.0 (Experimental)",
       "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. A selected local image automatically replaces\nthe legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental\nand may not work on all apps.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
       "default": false,
       "dependencies": [

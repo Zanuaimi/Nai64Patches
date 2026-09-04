@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-04T00:13:36",
-  "description": "## [1.13.2](https://github.com/Zanuaimi/Nai64Patches/compare/1.13.1...1.13.2) (2026-09-04)\n\n### Bug Fixes\n\n* layering of image and image handling cleanup ([aca2cf3](https://github.com/Zanuaimi/Nai64Patches/commit/aca2cf314bd10128c576faa271a4bb773d370654))",
-  "download_url": "https://github.com/Zanuaimi/Nai64Patches/releases/download/1.13.2/patches-1.13.2.mpp",
+  "created_at": "2026-09-04T10:32:50",
+  "description": "## [1.13.3](https://github.com/Zanuaimi/Nai64Patches/compare/1.13.2...1.13.3) (2026-09-04)\n\n### Bug Fixes\n\n* rename universal overlay patch ([2711e68](https://github.com/Zanuaimi/Nai64Patches/commit/2711e68fb20fb4b6a46c665f42af81a07a71da9b))",
+  "download_url": "https://github.com/Zanuaimi/Nai64Patches/releases/download/1.13.3/patches-1.13.3.mpp",
   "signature_download_url": "",
-  "version": "1.13.2"
+  "version": "1.13.3"
 }
