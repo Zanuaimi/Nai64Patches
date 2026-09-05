@@ -1,3 +1,9 @@
+## [1.13.4](https://github.com/Zanuaimi/Nai64Patches/compare/1.13.3...1.13.4) (2026-09-05)
+
+### Bug Fixes
+
+* update patch name ([078a5d8](https://github.com/Zanuaimi/Nai64Patches/commit/078a5d84bb8c0a185d91e922ca91324a43fc3364))
+
 ## [1.13.3](https://github.com/Zanuaimi/Nai64Patches/compare/1.13.2...1.13.3) (2026-09-04)
 
 ### Bug Fixes
